@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -27,7 +28,7 @@ const ContactSection = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "816.651.7726",
+      value: "(816) 651-7726",
       href: "tel:816-651-7726",
     },
     {
@@ -45,7 +46,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contact" className="py-24 bg-primary">
+    <section className="py-24 bg-primary">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16">
@@ -59,7 +60,7 @@ const ContactSection = () => {
               </h2>
               <p className="text-primary-foreground/70 text-lg leading-relaxed mb-10">
                 Whether you're buying, selling, or investing, I'm here to help make your 
-                real estate dreams a reality. Let's start the conversation.
+                real estate dreams a reality. Please call, text or email today to setup your free no obligation consultation.
               </p>
               
               {/* Contact Info */}
