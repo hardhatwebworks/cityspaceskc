@@ -1,15 +1,17 @@
-import { Building2, Users, Award, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Building2, Users, Award, MapPin, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const AboutSection = () => {
   const stats = [
-    { icon: Building2, value: "15+", label: "Years Experience" },
+    { icon: Building2, value: "25+", label: "Years Experience" },
     { icon: Users, value: "500+", label: "Happy Clients" },
     { icon: Award, value: "Local", label: "KC Expert" },
     { icon: MapPin, value: "KC", label: "Based & Proud" },
   ];
 
   return (
-    <section id="about" className="py-24 bg-secondary">
+    <section className="py-24 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -22,19 +24,21 @@ const AboutSection = () => {
                 Your Kansas City Real Estate Partner
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                City Spaces Realty LLC is a boutique real estate brokerage company engaged in 
-                sourcing residential and commercial real estate opportunities in the greater 
-                Kansas City metropolitan area.
+                "Buying or selling a home is serious business. However, serious does not need to mean stressful." That belief is at the core of my service to real estate clients.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                With deep roots in Kansas City, we offer personalized service that larger 
-                firms simply can't match. Whether you're buying your first home, selling an 
-                investment property, or looking for land opportunities, we're here to guide 
-                you every step of the way.
+                I believe that buying or selling a home should be an exciting and joyful experience. All you need is the assistance of an experienced, knowledgeable REALTOR® who listens carefully to understand your needs.
               </p>
               
+              <Button variant="gold" asChild>
+                <Link to="/who-we-are">
+                  Learn More About Jeff
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
+              </Button>
+              
               {/* Stats Grid */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-12">
                 {stats.map((stat, index) => (
                   <div key={index} className="text-center">
                     <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-gold/10 text-gold mb-3">

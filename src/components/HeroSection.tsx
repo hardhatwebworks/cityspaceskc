@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import KCSkyline from "./KCSkyline";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-primary">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-primary">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-hero" />
       
@@ -21,15 +22,15 @@ const HeroSection = () => {
           
           <p className="text-lg text-primary-foreground/70 mb-10 max-w-2xl mx-auto opacity-0 animate-fade-in-up animation-delay-400">
             A boutique real estate brokerage serving Kansas City with personalized attention 
-            and local expertise for over a decade.
+            and local expertise for over 25 years.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-in-up animation-delay-600">
             <Button variant="hero" size="xl" asChild>
-              <a href="#contact">Contact Jeff</a>
+              <Link to="/contact">Contact Jeff</Link>
             </Button>
             <Button variant="hero-outline" size="xl" asChild>
-              <a href="#services">Our Services</a>
+              <Link to="/what-we-do">Our Services</Link>
             </Button>
           </div>
         </div>
