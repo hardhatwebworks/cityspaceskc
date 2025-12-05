@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import skyline from "@/assets/skyline.png";
+import KCSkyline from "./KCSkyline";
 
 const HeroSection = () => {
   return (
@@ -38,7 +38,7 @@ const HeroSection = () => {
       
       {/* Kansas City Skyline */}
       <div className="absolute bottom-0 left-0 right-0 z-10">
-        <img src={skyline} alt="Kansas City Skyline" className="w-full h-auto" />
+        <KCSkyline className="w-full h-auto" />
       </div>
       
       {/* Navy bar at bottom */}
