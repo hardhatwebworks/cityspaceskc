@@ -1,12 +1,19 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import KCSkyline from "./KCSkyline";
+import heroBackground from "@/assets/hero-background.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-primary">
-      {/* Background gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-hero" />
+    <section 
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      style={{
+        backgroundImage: `url(${heroBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center bottom',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       
       {/* Content */}
       <div className="relative z-20 container mx-auto px-4 pt-20 pb-48 text-center">
