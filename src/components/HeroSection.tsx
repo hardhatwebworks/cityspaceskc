@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import skylineImage from "@/assets/skyline.png";
+import KCSkyline from "./KCSkyline";
 
 const HeroSection = () => {
   return (
@@ -36,16 +36,13 @@ const HeroSection = () => {
         </div>
       </div>
       
-      {/* Kansas City Skyline Background Image */}
-      <div 
-        className="absolute bottom-0 left-0 right-0 z-10 h-48 md:h-64 lg:h-80"
-        style={{
-          backgroundImage: `url(${skylineImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'bottom center',
-          backgroundRepeat: 'no-repeat',
-        }}
-      />
+      {/* Kansas City Skyline */}
+      <div className="absolute bottom-0 left-0 right-0 z-10">
+        <KCSkyline className="w-full h-auto" />
+      </div>
+      
+      {/* Navy bar at bottom */}
+      <div className="absolute bottom-0 left-0 right-0 h-16 bg-primary z-0" />
     </section>
   );
 };
