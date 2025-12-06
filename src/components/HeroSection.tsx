@@ -29,7 +29,7 @@ const HeroSection = () => {
       />
       
       {/* Content */}
-      <div className="relative z-20 container mx-auto px-4 pt-16 pb-56 text-center">
+      <div className="relative z-20 container mx-auto px-4 pt-20 pb-48 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-primary-foreground mb-6 opacity-0 animate-fade-in-up">
             City Spaces
