@@ -15,9 +15,9 @@ const Header = () => {
   ];
 
   const serviceLinks = [
-    { href: "/what-we-do", label: "What We Do" },
-    { href: "/investments", label: "Investments" },
-    { href: "/probate", label: "Probate Services" },
+    { href: "/what-we-do", label: "Residential Brokerage" },
+    { href: "/investments", label: "Real Estate Investments" },
+    { href: "/probate", label: "Inherited/Probated Properties" },
   ];
 
   const otherLinks = [
