@@ -47,7 +47,7 @@ const WhatWeDo = () => {
               Our Services
             </span>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
-              What We Do
+              Residential Brokerage
             </h1>
           </div>
         </div>
