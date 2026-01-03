@@ -26,7 +26,7 @@ const Probate = () => {
               Estate Services
             </span>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
-              Probate & Inherited Property
+              Inherited/Probated Properties
             </h1>
             <p className="text-xl text-primary-foreground/80">
               Full-Service Inherited Property/Probate Concierge
