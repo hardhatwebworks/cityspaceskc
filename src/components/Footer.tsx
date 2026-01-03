@@ -7,7 +7,7 @@ const Footer = () => {
   const serviceLinks = [
     { href: "/what-we-do", label: "What We Do" },
     { href: "/investments", label: "Investments" },
-    { href: "/probate", label: "Probate Services" },
+    { href: "/probate", label: "Inherited/Probated Properties" },
   ];
 
   const mainLinks = [

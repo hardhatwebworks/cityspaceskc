@@ -29,7 +29,7 @@ const Probate = () => {
               Inherited/Probated Properties
             </h1>
             <p className="text-xl text-primary-foreground/80">
-              Full-Service Inherited Property/Probate Concierge
+              Full-Service Inherited/Probated Properties Concierge
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Probate = () => {
               </div>
               <div>
                 <p className="text-lg text-foreground leading-relaxed mb-6">
-                  Over the last several years I have found a special purpose and sense of pride in helping families navigate the probate process while dealing with the death of a loved one. Due to this work City Spaces Realty LLC has become a leader in the Probate/Inherited Property space in the Kansas City market.
+                  Over the last several years I have found a special purpose and sense of pride in helping families navigate the probate process while dealing with the death of a loved one. Due to this work City Spaces Realty LLC has become a leader in the Inherited/Probated Properties space in the Kansas City market.
                 </p>
                 <p className="text-lg text-foreground leading-relaxed">
                   I realized years ago that people tasked with the responsibility of settling the affairs of a loved one that has passed have accepted an immense responsibility that can be overwhelming. Unfortunately, most are not prepared for the mountain of work and time commitment necessary for success. Years of experience helping families navigate this jungle have allowed me to develop a network of local professionals handpicked for their distinct talents to help you through each task you will face as a Personal Representative/Executor.

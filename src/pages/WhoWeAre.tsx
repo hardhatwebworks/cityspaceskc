@@ -52,7 +52,7 @@ const WhoWeAre = () => {
                 I started my career 25 years ago in residential real estate finance and then moved on to a successful stint in commercial real estate development. Since 2008 I have focused on helping Kansas Citians buy and sell single family homes for both personal enjoyment and investment. Whether you are a first-time home buyer looking for the perfect starter home, an empty nester looking to downsize, or a young professional wanting to build wealth through real estate investment, I have the skills and experience to assist you in accomplishing your goals.
               </p>
 
-              <h2 className="font-display text-3xl text-foreground mt-12 mb-6">Probate & Estate Services</h2>
+              <h2 className="font-display text-3xl text-foreground mt-12 mb-6">Inherited/Probated Properties</h2>
 
               <p className="text-lg text-foreground leading-relaxed mb-6">
                 Over the last several years I have found a special purpose and sense of pride in helping families navigate the probate process while dealing with the death of a loved one. These individuals are faced with a complex maze of responsibilities in settling those estates, and I've been gratified to guide them through it as painlessly as possible. This significant portion of my business is built upon providing a full slate of services, beyond just selling the real estate, to help them through a difficult and emotional time.
