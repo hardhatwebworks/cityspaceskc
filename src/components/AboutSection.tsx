@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const AboutSection = () => {
   const stats = [
     { icon: Building2, value: "25+", label: "Years Experience" },
-    { icon: Users, value: "Hundreds", label: "Happy Clients" },
+    { icon: Users, value: "Hundreds of", label: "Happy Clients" },
     { icon: Award, value: "Local", label: "KC Expert" },
     { icon: MapPin, value: "KC", label: "Based & Proud" },
   ];
