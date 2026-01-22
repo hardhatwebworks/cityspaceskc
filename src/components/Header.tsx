@@ -28,7 +28,7 @@ const Header = () => {
   const isActive = (href: string) => location.pathname === href;
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-primary backdrop-blur-sm border-b border-primary">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -47,7 +47,7 @@ const Header = () => {
                 key={link.href}
                 to={link.href}
                 className={`font-medium transition-colors duration-200 ${
-                  isActive(link.href) ? "text-gold" : "text-foreground/80 hover:text-primary"
+                  isActive(link.href) ? "text-gold" : "text-primary-foreground/90 hover:text-gold"
                 }`}
               >
                 {link.label}
@@ -57,7 +57,7 @@ const Header = () => {
             {/* Services Dropdown */}
             <div className="relative group">
               <button 
-                className="flex items-center gap-1 font-medium text-foreground/80 hover:text-primary transition-colors"
+                className="flex items-center gap-1 font-medium text-primary-foreground/90 hover:text-gold transition-colors"
                 onMouseEnter={() => setServicesOpen(true)}
                 onMouseLeave={() => setServicesOpen(false)}
               >
@@ -90,7 +90,7 @@ const Header = () => {
                 key={link.href}
                 to={link.href}
                 className={`font-medium transition-colors duration-200 ${
-                  isActive(link.href) ? "text-gold" : "text-foreground/80 hover:text-primary"
+                  isActive(link.href) ? "text-gold" : "text-primary-foreground/90 hover:text-gold"
                 }`}
               >
                 {link.label}
@@ -100,7 +100,7 @@ const Header = () => {
 
           {/* Contact Button */}
           <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:816-651-7726" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+            <a href="tel:816-651-7726" className="flex items-center gap-2 text-sm text-primary-foreground/80 hover:text-gold transition-colors">
               <Phone className="h-4 w-4" />
               816.651.7726
             </a>
@@ -112,7 +112,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 text-foreground"
+            className="lg:hidden p-2 text-primary-foreground"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -121,14 +121,14 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="lg:hidden py-4 border-t border-border animate-fade-in">
+          <nav className="lg:hidden py-4 border-t border-primary-foreground/20 animate-fade-in">
             <div className="flex flex-col gap-2">
               {mainLinks.map((link) => (
                 <Link
                   key={link.href}
                   to={link.href}
                   className={`py-2 px-2 rounded-lg transition-colors ${
-                    isActive(link.href) ? "text-gold bg-gold/5" : "text-foreground/80 hover:text-primary"
+                    isActive(link.href) ? "text-gold bg-gold/10" : "text-primary-foreground/90 hover:text-gold"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -137,14 +137,14 @@ const Header = () => {
               ))}
               
               <div className="py-2 px-2">
-                <span className="text-sm font-medium text-muted-foreground uppercase tracking-wide">Services</span>
+                <span className="text-sm font-medium text-primary-foreground/60 uppercase tracking-wide">Services</span>
                 <div className="mt-2 ml-2 flex flex-col gap-1">
                   {serviceLinks.map((link) => (
                     <Link
                       key={link.href}
                       to={link.href}
                       className={`py-2 px-2 rounded-lg transition-colors ${
-                        isActive(link.href) ? "text-gold bg-gold/5" : "text-foreground/80 hover:text-primary"
+                        isActive(link.href) ? "text-gold bg-gold/10" : "text-primary-foreground/90 hover:text-gold"
                       }`}
                       onClick={() => setIsMenuOpen(false)}
                     >
@@ -159,7 +159,7 @@ const Header = () => {
                   key={link.href}
                   to={link.href}
                   className={`py-2 px-2 rounded-lg transition-colors ${
-                    isActive(link.href) ? "text-gold bg-gold/5" : "text-foreground/80 hover:text-primary"
+                    isActive(link.href) ? "text-gold bg-gold/10" : "text-primary-foreground/90 hover:text-gold"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
@@ -167,12 +167,12 @@ const Header = () => {
                 </Link>
               ))}
 
-              <div className="flex flex-col gap-3 pt-4 mt-2 border-t border-border">
-                <a href="tel:816-651-7726" className="flex items-center gap-2 text-muted-foreground px-2">
+              <div className="flex flex-col gap-3 pt-4 mt-2 border-t border-primary-foreground/20">
+                <a href="tel:816-651-7726" className="flex items-center gap-2 text-primary-foreground/80 px-2">
                   <Phone className="h-4 w-4" />
                   816.651.7726
                 </a>
-                <a href="mailto:jeff@cityspaceskc.com" className="flex items-center gap-2 text-muted-foreground px-2">
+                <a href="mailto:jeff@cityspaceskc.com" className="flex items-center gap-2 text-primary-foreground/80 px-2">
                   <Mail className="h-4 w-4" />
                   jeff@cityspaceskc.com
                 </a>
