@@ -40,10 +40,6 @@ const HeroSection = () => {
             Residential • Land • Investments
           </p>
           
-          <p className="text-lg text-primary-foreground/70 mb-10 max-w-2xl mx-auto opacity-0 animate-fade-in-up animation-delay-400">
-            A boutique real estate brokerage serving Kansas City with personalized attention 
-            and local expertise for over 25 years.
-          </p>
           
         </div>
       </div>
