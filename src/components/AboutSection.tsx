@@ -24,6 +24,9 @@ const AboutSection = () => {
                 Your Kansas City Real Estate Partner
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+                A boutique real estate brokerage serving Kansas City with personalized attention and local expertise for over 25 years.
+              </p>
+              <p className="text-muted-foreground text-lg leading-relaxed mb-6">
                 "Buying or selling a home is serious business. However, serious does not need to mean stressful." That belief is at the core of my service to real estate clients.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">
