@@ -11,7 +11,7 @@ const Header = () => {
 
   const mainLinks = [
     { href: "/", label: "Home" },
-    { href: "/who-we-are", label: "About" },
+    { href: "/who-we-are", label: "About Us" },
   ];
 
   const serviceLinks = [
