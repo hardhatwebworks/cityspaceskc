@@ -1,27 +1,13 @@
-import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import heroBackgroundDesktop from "@/assets/hero-background-desktop.png";
-import heroBackgroundMobile from "@/assets/hero-background-mobile.png";
+import heroBackground from "@/assets/hero-background.png";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Desktop background */}
+      {/* Background */}
       <div 
-        className="absolute inset-0 hidden md:block"
+        className="absolute inset-0"
         style={{
-          backgroundImage: `url(${heroBackgroundDesktop})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'bottom center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      />
-      
-      {/* Mobile background */}
-      <div 
-        className="absolute inset-0 block md:hidden"
-        style={{
-          backgroundImage: `url(${heroBackgroundMobile})`,
+          backgroundImage: `url(${heroBackground})`,
           backgroundSize: 'cover',
           backgroundPosition: 'bottom center',
           backgroundRepeat: 'no-repeat'
