@@ -12,7 +12,7 @@ const Footer = () => {
 
   const mainLinks = [
     { href: "/", label: "Home" },
-    { href: "/who-we-are", label: "Who We Are" },
+    { href: "/who-we-are", label: "About" },
     { href: "/success-stories", label: "Success Stories" },
     { href: "/contact", label: "Contact" },
   ];
