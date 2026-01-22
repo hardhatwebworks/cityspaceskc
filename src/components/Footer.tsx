@@ -5,8 +5,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const serviceLinks = [
-    { href: "/what-we-do", label: "What We Do" },
-    { href: "/investments", label: "Investments" },
+    { href: "/what-we-do", label: "Buy or Sell Your Home" },
+    { href: "/investments", label: "Investment Properties" },
     { href: "/probate", label: "Inherited/Probated Properties" },
   ];
 
@@ -55,7 +55,7 @@ const Footer = () => {
 
             {/* Services */}
             <div>
-              <h4 className="font-display text-lg text-foreground mb-4">Services</h4>
+              <h4 className="font-display text-lg text-foreground mb-4">What We Do</h4>
               <nav className="flex flex-col gap-2">
                 {serviceLinks.map((link) => (
                   <Link 
