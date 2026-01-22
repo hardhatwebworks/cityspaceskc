@@ -29,7 +29,7 @@ const Footer = () => {
                 <img 
                   src={logo} 
                   alt="City Spaces Realty" 
-                  className="h-32 w-auto object-contain"
+                  className="h-40 w-auto object-contain"
                 />
               </Link>
             </div>
