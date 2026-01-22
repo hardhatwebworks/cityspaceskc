@@ -29,12 +29,9 @@ const Footer = () => {
                 <img 
                   src={logo} 
                   alt="City Spaces Realty" 
-                  className="h-16 w-auto object-contain mb-4"
+                  className="h-24 w-auto object-contain"
                 />
               </Link>
-              <p className="text-muted-foreground max-w-sm">
-                A boutique real estate brokerage serving Kansas City with personalized attention and local expertise.
-              </p>
             </div>
             
             {/* Quick Links */}
