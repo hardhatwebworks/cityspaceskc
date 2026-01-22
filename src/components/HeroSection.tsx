@@ -45,14 +45,6 @@ const HeroSection = () => {
             and local expertise for over 25 years.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-in-up animation-delay-600">
-            <Button variant="hero" size="xl" asChild>
-              <Link to="/contact">Contact Jeff</Link>
-            </Button>
-            <Button variant="hero-outline" size="xl" asChild>
-              <Link to="/what-we-do">Our Services</Link>
-            </Button>
-          </div>
         </div>
       </div>
       
