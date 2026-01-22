@@ -5,8 +5,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const serviceLinks = [
-    { href: "/what-we-do", label: "Buy or Sell Your Home" },
-    { href: "/investments", label: "Investment Properties" },
+    { href: "/what-we-do", label: "Residential Brokerage" },
+    { href: "/investments", label: "Real Estate Investments" },
     { href: "/probate", label: "Inherited/Probated Properties" },
   ];
 
