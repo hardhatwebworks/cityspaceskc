@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Leckerli One", "cursive"],
-        sans: ["Ephesis", "cursive"],
+        display: ["Aerokids", "cursive"],
+        sans: ["Source Sans 3", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
