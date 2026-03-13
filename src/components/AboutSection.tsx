@@ -56,15 +56,17 @@ const AboutSection = () => {
             
             {/* Image/Visual Side */}
             <div className="relative">
-              <div className="aspect-square bg-primary rounded-2xl overflow-hidden shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-hero" />
-                <div className="relative h-full flex flex-col items-center justify-center p-8 text-center">
-                  <h3 className="font-display text-4xl text-primary-foreground mb-2">Jeff Johnson</h3>
-                  <p className="text-gold text-lg mb-6">Broker / Owner</p>
-                  <div className="space-y-2 text-primary-foreground/80">
+              <div className="aspect-[3/4] bg-muted rounded-2xl overflow-hidden shadow-2xl">
+                <div className="absolute inset-0 bg-gradient-to-b from-muted/50 to-muted flex flex-col items-center justify-center p-8 text-center">
+                  <div className="w-32 h-32 rounded-full bg-border mb-6 flex items-center justify-center">
+                    <Users className="w-16 h-16 text-muted-foreground/40" />
+                  </div>
+                  <h3 className="font-display text-4xl text-foreground mb-2">Jeff Johnson</h3>
+                  <p className="text-gold text-lg mb-4">Broker / Owner</p>
+                  <p className="text-sm text-muted-foreground italic">Professional headshot coming soon</p>
+                  <div className="space-y-2 text-muted-foreground mt-6">
                     <p className="font-medium">816.651.7726</p>
                     <p>jeff@cityspaceskc.com</p>
-                    <p>www.cityspaceskc.com</p>
                   </div>
                 </div>
               </div>

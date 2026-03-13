@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Playfair Display", "Georgia", "serif"],
-        sans: ["Source Sans 3", "system-ui", "sans-serif"],
+        display: ["Leckerli One", "cursive"],
+        sans: ["Ephesis", "cursive"],
       },
       colors: {
         border: "hsl(var(--border))",
