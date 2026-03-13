@@ -2,34 +2,25 @@ import heroBackground from "@/assets/hero-background.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
-      <div 
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `url(${heroBackground})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'bottom center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      />
-      
-      {/* Content */}
-      <div className="relative z-20 container mx-auto px-4 pt-20 pb-48 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-primary-foreground mb-6 opacity-0 animate-fade-in-up">
-            City Spaces
-            <span className="block text-gold mt-2">Realty</span>
-          </h1>
-          
-          <p className="text-xl md:text-2xl text-primary-foreground/80 mb-4 opacity-0 animate-fade-in-up animation-delay-200 font-light tracking-wide">
-            Residential • Land • Investments
-          </p>
-          
-          
-        </div>
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background">
+      {/* Hero Text */}
+      <div className="relative z-20 text-center mb-8 opacity-0 animate-fade-in-up">
+        <h1 className="font-display text-7xl md:text-8xl lg:text-9xl tracking-wide text-foreground leading-none">
+          City Spaces
+        </h1>
+        <p className="font-display text-4xl md:text-5xl lg:text-6xl text-gold mt-2 tracking-wider">
+          Realty
+        </p>
       </div>
-      
+
+      {/* Skyline Image anchored to bottom */}
+      <div className="absolute bottom-0 left-0 right-0 z-10">
+        <img 
+          src={heroBackground} 
+          alt="Kansas City skyline illustration" 
+          className="w-full h-auto object-contain object-bottom"
+        />
+      </div>
     </section>
   );
 };
