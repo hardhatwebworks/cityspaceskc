@@ -11,6 +11,9 @@ const HeroSection = () => {
         <p className="font-display text-4xl md:text-5xl lg:text-6xl text-gold mt-2 tracking-wider">
           Realty
         </p>
+        <p className="font-sans text-lg md:text-xl lg:text-2xl text-primary mt-4 tracking-widest uppercase font-semibold">
+          Residential &bull; Land &bull; Investments
+        </p>
       </div>
 
       {/* Skyline Image anchored to bottom */}
