@@ -47,7 +47,7 @@ const AboutSection = () => {
                     <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-gold/10 text-gold mb-3">
                       <stat.icon className="w-5 h-5" />
                     </div>
-                    <div className="text-xl font-display font-bold text-foreground whitespace-nowrap">{stat.value}</div>
+                    <div className="text-xl font-sans font-bold text-foreground whitespace-nowrap">{stat.value}</div>
                     <div className="text-sm text-muted-foreground">{stat.label}</div>
                   </div>
                 ))}
