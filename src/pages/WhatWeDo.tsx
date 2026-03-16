@@ -46,9 +46,12 @@ const WhatWeDo = () => {
             <span className="text-gold font-medium text-sm tracking-widest uppercase mb-4 block">
               Our Services
             </span>
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
-              Residential Brokerage
-            </h1>
+             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
+               Residential Brokerage
+             </h1>
+             <p className="text-xl text-primary-foreground/80 font-sans">
+               Personalized service for buyers and sellers across the Kansas City metro area.
+             </p>
           </div>
         </div>
       </section>
