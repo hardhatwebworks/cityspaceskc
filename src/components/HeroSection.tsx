@@ -4,8 +4,8 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-background">
       {/* Hero Text */}
-      <div className="relative z-20 text-center mb-24 md:mb-32 opacity-0 animate-fade-in-up">
-        <h1 className="font-display text-8xl md:text-9xl lg:text-[12rem] tracking-wide text-foreground leading-none">
+      <div className="relative z-20 text-center mb-40 md:mb-48 opacity-0 animate-fade-in-up">
+        <h1 className="font-display text-9xl md:text-[10rem] lg:text-[14rem] tracking-wide text-foreground leading-none">
           City Spaces
         </h1>
         <p className="font-display text-5xl md:text-6xl lg:text-8xl text-gold mt-2 tracking-wider">
