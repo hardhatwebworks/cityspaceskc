@@ -15,7 +15,7 @@ const WhoWeAre = () => {
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
               About Jeff Johnson
             </h1>
-            <p className="text-xl text-primary-foreground/80 italic font-display">
+            <p className="text-xl text-primary-foreground/80 italic font-sans">
               "Buying or selling a home is serious business. However, serious does not need to mean stressful."
             </p>
           </div>
