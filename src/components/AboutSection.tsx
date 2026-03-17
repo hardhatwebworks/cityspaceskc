@@ -34,7 +34,7 @@ const AboutSection = () => {
               </p>
               
               <Button variant="gold" asChild>
-                <Link to="/who-we-are">
+                <Link to="/about-us">
                   Learn More About Jeff
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Link>

@@ -21,7 +21,7 @@ const ServicesSection = () => {
       icon: Heart,
       title: "Inherited/Probated Properties",
       description: "Full-service probate concierge helping families navigate the complex process of settling estates with compassion and expertise.",
-      link: "/probate",
+      link: "/inherited-properties",
       color: "burnt-orange",
     },
   ];
