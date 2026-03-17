@@ -7,7 +7,7 @@ const ServicesSection = () => {
       icon: Home,
       title: "Residential Brokerage",
       description: "Find your perfect home in Kansas City. From first-time buyers to luxury properties, we have the local knowledge to match you with your ideal residence.",
-      link: "/what-we-do",
+      link: "/residential-brokerage",
       color: "gold",
     },
     {
