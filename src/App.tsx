@@ -24,11 +24,11 @@ const App = () => (
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/who-we-are" element={<WhoWeAre />} />
-          <Route path="/what-we-do" element={<WhatWeDo />} />
+          <Route path="/about-us" element={<WhoWeAre />} />
+          <Route path="/residential-brokerage" element={<WhatWeDo />} />
           <Route path="/success-stories" element={<SuccessStories />} />
-          <Route path="/investments" element={<Investments />} />
-          <Route path="/probate" element={<Probate />} />
+          <Route path="/real-estate-investments" element={<Investments />} />
+          <Route path="/inherited-properties" element={<Probate />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

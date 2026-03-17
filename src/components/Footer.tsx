@@ -5,14 +5,14 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const serviceLinks = [
-    { href: "/what-we-do", label: "Residential Brokerage" },
-    { href: "/investments", label: "Real Estate Investments" },
-    { href: "/probate", label: "Inherited/Probated Properties" },
+    { href: "/residential-brokerage", label: "Residential Brokerage" },
+    { href: "/real-estate-investments", label: "Real Estate Investments" },
+    { href: "/inherited-properties", label: "Inherited/Probated Properties" },
   ];
 
   const mainLinks = [
     { href: "/", label: "Home" },
-    { href: "/who-we-are", label: "About Us" },
+    { href: "/about-us", label: "About Us" },
     { href: "/success-stories", label: "Success Stories" },
     { href: "/contact", label: "Contact" },
   ];
