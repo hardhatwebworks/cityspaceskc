@@ -14,7 +14,7 @@ const ServicesSection = () => {
       icon: TrendingUp,
       title: "Real Estate Investments",
       description: "Build wealth through strategic real estate investments. Our market insights help you identify profitable opportunities and maximize returns.",
-      link: "/investments",
+      link: "/real-estate-investments",
       color: "orange",
     },
     {
