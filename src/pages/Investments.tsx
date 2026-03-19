@@ -42,6 +42,19 @@ const Investments = () => {
         </div>
       </section>
 
+      {/* Featured Image */}
+      <section className="py-12 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <img
+              src={barberShop}
+              alt="Barbershop Gallery investment property"
+              className="w-full rounded-2xl shadow-lg object-cover aspect-[16/9]"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Grid */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
