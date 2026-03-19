@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, TrendingUp, Building2, Wallet, Calculator, CheckCircle2 } from "lucide-react";
+import barberShop from "@/assets/barber-shop.jpeg";
 
 const Investments = () => {
   const benefits = [
@@ -37,6 +38,19 @@ const Investments = () => {
             <p className="text-xl text-primary-foreground/80">
               Build wealth through strategic real estate investment
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Image */}
+      <section className="py-12 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <img
+              src={barberShop}
+              alt="Barbershop Gallery investment property"
+              className="w-full rounded-2xl shadow-lg object-cover aspect-[16/9]"
+            />
           </div>
         </div>
       </section>
