@@ -34,44 +34,14 @@ const Probate = () => {
     <main className="min-h-screen">
       <Header />
       
-      {/* Photo Slideshow */}
-      <section className="relative h-[50vh] md:h-[60vh] overflow-hidden">
-        {slides.map((slide, i) => (
-          <img
-            key={i}
-            src={slide.src}
-            alt={slide.alt}
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${i === current ? "opacity-100" : "opacity-0"}`}
-          />
-        ))}
-        <div className="absolute inset-0 bg-primary/60" />
-        <button
-          onClick={() => setCurrent((c) => (c - 1 + slides.length) % slides.length)}
-          className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-background/30 hover:bg-background/50 rounded-full p-2 text-primary-foreground transition-colors"
-        >
-          <ChevronLeft className="w-6 h-6" />
-        </button>
-        <button
-          onClick={() => setCurrent((c) => (c + 1) % slides.length)}
-          className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-background/30 hover:bg-background/50 rounded-full p-2 text-primary-foreground transition-colors"
-        >
-          <ChevronRight className="w-6 h-6" />
-        </button>
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
-          {slides.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => setCurrent(i)}
-              className={`w-3 h-3 rounded-full transition-colors ${i === current ? "bg-gold" : "bg-primary-foreground/40"}`}
-            />
-          ))}
-        </div>
-        <div className="absolute inset-0 z-10 flex items-center justify-center">
-          <div className="text-center">
+      {/* Hero Section */}
+      <section className="pt-32 pb-16 bg-primary">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
             <span className="text-gold font-medium text-sm tracking-widest uppercase mb-4 block">
               Estate Services
             </span>
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-4">
+            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
               Inherited/Probated Properties
             </h1>
             <p className="text-xl text-primary-foreground/80">
@@ -81,7 +51,46 @@ const Probate = () => {
         </div>
       </section>
 
-
+      {/* Photo Slideshow */}
+      <section className="py-12 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <div className="aspect-[16/9] relative">
+                {slides.map((slide, i) => (
+                  <img
+                    key={i}
+                    src={slide.src}
+                    alt={slide.alt}
+                    className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${i === current ? "opacity-100" : "opacity-0"}`}
+                  />
+                ))}
+              </div>
+              <button
+                onClick={() => setCurrent((c) => (c - 1 + slides.length) % slides.length)}
+                className="absolute left-3 top-1/2 -translate-y-1/2 z-20 bg-primary/50 hover:bg-primary/70 rounded-full p-2 text-primary-foreground transition-colors"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              <button
+                onClick={() => setCurrent((c) => (c + 1) % slides.length)}
+                className="absolute right-3 top-1/2 -translate-y-1/2 z-20 bg-primary/50 hover:bg-primary/70 rounded-full p-2 text-primary-foreground transition-colors"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+                {slides.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setCurrent(i)}
+                    className={`w-2.5 h-2.5 rounded-full transition-colors ${i === current ? "bg-gold" : "bg-primary-foreground/50"}`}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Intro */}
       <section className="py-16 bg-background">
