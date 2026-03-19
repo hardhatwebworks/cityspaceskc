@@ -1,9 +1,25 @@
+import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, Heart, CheckCircle2, Quote } from "lucide-react";
+import { Phone, Mail, Heart, CheckCircle2, Quote, ChevronLeft, ChevronRight } from "lucide-react";
+import highland from "@/assets/highland.jpg";
+import wallace from "@/assets/4950-wallace.jpg";
+import topaz from "@/assets/517-topaz-place.jpg";
+
+const slides = [
+  { src: highland, alt: "Highland property" },
+  { src: wallace, alt: "4950 Wallace property" },
+  { src: topaz, alt: "517 Topaz Place property" },
+];
 
 const Probate = () => {
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => setCurrent((c) => (c + 1) % slides.length), 5000);
+    return () => clearInterval(timer);
+  }, []);
   const services = [
     "Listening Before Speaking: It is important that we understand your situation and your goals before we know how we can help.",
     "Secure, catalogue and maintain physical assets during the probate or settlement process.",
@@ -18,14 +34,44 @@ const Probate = () => {
     <main className="min-h-screen">
       <Header />
       
-      {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-primary">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
+      {/* Photo Slideshow */}
+      <section className="relative h-[50vh] md:h-[60vh] overflow-hidden">
+        {slides.map((slide, i) => (
+          <img
+            key={i}
+            src={slide.src}
+            alt={slide.alt}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${i === current ? "opacity-100" : "opacity-0"}`}
+          />
+        ))}
+        <div className="absolute inset-0 bg-primary/60" />
+        <button
+          onClick={() => setCurrent((c) => (c - 1 + slides.length) % slides.length)}
+          className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-background/30 hover:bg-background/50 rounded-full p-2 text-primary-foreground transition-colors"
+        >
+          <ChevronLeft className="w-6 h-6" />
+        </button>
+        <button
+          onClick={() => setCurrent((c) => (c + 1) % slides.length)}
+          className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-background/30 hover:bg-background/50 rounded-full p-2 text-primary-foreground transition-colors"
+        >
+          <ChevronRight className="w-6 h-6" />
+        </button>
+        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+          {slides.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setCurrent(i)}
+              className={`w-3 h-3 rounded-full transition-colors ${i === current ? "bg-gold" : "bg-primary-foreground/40"}`}
+            />
+          ))}
+        </div>
+        <div className="absolute inset-0 z-10 flex items-center justify-center">
+          <div className="text-center">
             <span className="text-gold font-medium text-sm tracking-widest uppercase mb-4 block">
               Estate Services
             </span>
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
+            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-4">
               Inherited/Probated Properties
             </h1>
             <p className="text-xl text-primary-foreground/80">
@@ -34,6 +80,8 @@ const Probate = () => {
           </div>
         </div>
       </section>
+
+
 
       {/* Intro */}
       <section className="py-16 bg-background">
