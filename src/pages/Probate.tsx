@@ -80,15 +80,8 @@ const Probate = () => {
           </div>
         </div>
       </section>
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
-              Inherited/Probated Properties
-            </h1>
-            <p className="text-xl text-primary-foreground/80">
-              Full-Service Inherited/Probated Properties Concierge
-            </p>
-          </div>
-        </div>
-      </section>
+
+
 
       {/* Intro */}
       <section className="py-16 bg-background">
