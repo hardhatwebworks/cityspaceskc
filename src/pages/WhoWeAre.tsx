@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail } from "lucide-react";
+import familyPhoto from "@/assets/family-photo.jpeg";
 
 const WhoWeAre = () => {
   return (
