@@ -1,9 +1,25 @@
+import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, Heart, CheckCircle2, Quote } from "lucide-react";
+import { Phone, Mail, Heart, CheckCircle2, Quote, ChevronLeft, ChevronRight } from "lucide-react";
+import highland from "@/assets/highland.jpg";
+import wallace from "@/assets/4950-wallace.jpg";
+import topaz from "@/assets/517-topaz-place.jpg";
+
+const slides = [
+  { src: highland, alt: "Highland property" },
+  { src: wallace, alt: "4950 Wallace property" },
+  { src: topaz, alt: "517 Topaz Place property" },
+];
 
 const Probate = () => {
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => setCurrent((c) => (c + 1) % slides.length), 5000);
+    return () => clearInterval(timer);
+  }, []);
   const services = [
     "Listening Before Speaking: It is important that we understand your situation and your goals before we know how we can help.",
     "Secure, catalogue and maintain physical assets during the probate or settlement process.",
