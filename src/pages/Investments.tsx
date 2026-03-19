@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, TrendingUp, Building2, Wallet, Calculator, CheckCircle2 } from "lucide-react";
+import barberShop from "@/assets/barber-shop.jpeg";
 
 const Investments = () => {
   const benefits = [
