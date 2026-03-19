@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail } from "lucide-react";
+import familyPhoto from "@/assets/family-photo.jpeg";
 
 const WhoWeAre = () => {
   return (
@@ -43,9 +44,17 @@ const WhoWeAre = () => {
                 I love Kansas City and I love doing what I do. I enjoy people, so listening, understanding, empathizing, and bringing perspective and a sense of humor to the real estate process comes naturally. My favorite clients are those who prefer the right answer over the easy answer, who want to understand the process, and who are not willing to settle for less.
               </p>
 
-              <p className="text-lg text-foreground leading-relaxed">
+              <p className="text-lg text-foreground leading-relaxed mb-12">
                 If you love the energy and excitement of Kansas City and you want a REALTOR® who will work hard to make buying or selling your home both easy and enjoyable, call me, and I will be with you from the first step through closing and beyond.
               </p>
+
+              <div className="rounded-2xl overflow-hidden shadow-2xl">
+                <img
+                  src={familyPhoto}
+                  alt="Jeff Johnson and family"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
