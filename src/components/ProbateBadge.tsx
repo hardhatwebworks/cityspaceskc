@@ -12,9 +12,9 @@ const ProbateBadge = () => {
         {/* Star background */}
         <Star
           className="absolute inset-0 w-full h-full text-gold drop-shadow-lg transition-transform group-hover:scale-110"
-          fill="hsl(var(--gold))"
+          fill="currentColor"
           strokeWidth={1}
-          stroke="hsl(var(--gold))"
+          stroke="currentColor"
         />
         {/* Text overlay */}
         <span className="relative z-10 text-primary font-bold text-[10px] md:text-xs leading-tight text-center px-4">
