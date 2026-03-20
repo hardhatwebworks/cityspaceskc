@@ -1,38 +1,20 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Phone, Mail, CheckCircle2, Users, Home, ShoppingBag } from "lucide-react";
+import { Phone, Mail, CheckCircle2 } from "lucide-react";
 
 const WhatWeDo = () => {
-  const clientCommitments = [
-    "We listen to You. This is your Journey so it is not our job to lead but to follow your guidance.",
-    "Provide timely and reliable communication about all aspects of your transaction.",
-    "Transparency and Professionalism are the foundation of all we do.",
-    "Your satisfaction takes priority over our needs.",
-  ];
-
-  const sellerCommitments = [
-    "Take the time to understand the motivations driving your desire to sell your house.",
-    "Develop the most aggressive pricing and marketing plan based upon your motivations, the conditions of the house and current market conditions.",
-    "Provide a realistic outline and timeframe for the sale process at the onset so you understand the issues that will effect a successful execution of your marketing plan.",
-    "Provide guidance on the preparation of the house so that it is positioned in the best possible way to maximize interest.",
-    "Prepare marketing material in a professional and appropriate way for the subject property.",
-    "Ensure your listing information is distributed to widest possible audience including all the major listing services, social media outlets and directly to agents working in the subject market.",
-    "Diligently follow up with prospective buyers to obtain real-time feedback on your listing.",
-    "Summarize and present all offers with recommendations in a timely manner.",
-    "Shepherd the transactions through the due diligence and closing process efficiently and as quickly as possible.",
-    "Follow up after the closing to ensure you have all paperwork required for your records.",
-  ];
-
-  const buyerCommitments = [
-    "Listen to understand the motivations driving your desire to purchase a new house.",
-    "Take the time to help you define and hone the financial, emotional and practical reasons for this decision.",
-    "Develop a comprehensive plan that addresses the areas, home attributes, budget, financing options and non-tangible aspects of home ownership before starting the search.",
-    "Search all possible avenues including active MLS listings, FSBO properties, bank foreclosure listings, expired listings and even houses not currently being marketed to ensure we understand all possible options available.",
-    "Provide a comparative market analysis of the house you select to ensure the offer price is in line with the current market.",
-    "Diligently negotiate the best terms possible for the house of your choice.",
-    "Efficiently negotiate the inspection, due diligence and closing process.",
-    "Follow up after the close to ensure everything is as expected in your new home.",
+  const differentiators = [
+    "We listen to You. Taking the time to understand your motivations and goals for every transaction regardless of size",
+    "Create an individualized plan for your specific real estate needs",
+    "Set realistic and achievable expectations for City Spaces Realty and clients alike",
+    "Provide timely and reliable communication throughout the entire process of your transaction",
+    "Stay abreast of current conditions and trending issues in real estate sphere",
+    "Adept negotiators with 100s of deals under our belt",
+    "Provide referrals for experienced and capable service providers from our extensive network",
+    "Effective collaboration with other brokers, service providers and lenders",
+    "Adhere to the highest level of professionalism and ethical standards in everything we do",
+    "Abide by both the letter and spirit of all Fair Housing Laws and Practices",
   ];
 
   return (
