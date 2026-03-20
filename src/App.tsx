@@ -23,6 +23,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTop />
+        <ProbateBadge />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about-us" element={<WhoWeAre />} />
