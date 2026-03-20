@@ -52,64 +52,15 @@ const WhatWeDo = () => {
         </div>
       </section>
 
-      {/* Client Commitment */}
+      {/* What Makes Us Different */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="p-3 rounded-xl bg-gold/10">
-                <Users className="w-8 h-8 text-gold" />
-              </div>
-              <h2 className="font-display text-3xl text-foreground">Our Unwavering Commitment to Every Client</h2>
-            </div>
+            <h2 className="font-display text-3xl text-foreground mb-8">What Makes City Spaces Realty Different</h2>
             <div className="grid gap-4">
-              {clientCommitments.map((item, index) => (
+              {differentiators.map((item, index) => (
                 <div key={index} className="flex items-start gap-4 bg-card p-5 rounded-xl">
                   <CheckCircle2 className="w-6 h-6 text-gold flex-shrink-0 mt-0.5" />
-                  <p className="text-foreground">{item}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Seller Commitment */}
-      <section className="py-16 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="p-3 rounded-xl bg-orange/10">
-                <ShoppingBag className="w-8 h-8 text-orange" />
-              </div>
-              <h2 className="font-display text-3xl text-foreground">Our Commitment to Sellers</h2>
-            </div>
-            <div className="grid gap-3">
-              {sellerCommitments.map((item, index) => (
-                <div key={index} className="flex items-start gap-4 p-4 rounded-lg hover:bg-secondary transition-colors">
-                  <CheckCircle2 className="w-5 h-5 text-orange flex-shrink-0 mt-0.5" />
-                  <p className="text-foreground">{item}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Buyer Commitment */}
-      <section className="py-16 bg-secondary">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="p-3 rounded-xl bg-gold/10">
-                <Home className="w-8 h-8 text-gold" />
-              </div>
-              <h2 className="font-display text-3xl text-foreground">Our Commitment to Buyers</h2>
-            </div>
-            <div className="grid gap-3">
-              {buyerCommitments.map((item, index) => (
-                <div key={index} className="flex items-start gap-4 p-4 rounded-lg hover:bg-card transition-colors">
-                  <CheckCircle2 className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
                   <p className="text-foreground">{item}</p>
                 </div>
               ))}
