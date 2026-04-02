@@ -20,7 +20,7 @@ const AboutSection = () => {
               <span className="text-gold font-medium text-sm tracking-widest uppercase mb-4 block">
                 About Us
               </span>
-              <h2 className="font-display text-4xl md:text-5xl text-foreground mb-6">
+              <h2 className="font-sans font-bold text-4xl md:text-5xl text-foreground mb-6">
                 Your Kansas City Real Estate Partner
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
@@ -61,7 +61,7 @@ const AboutSection = () => {
                   <div className="w-32 h-32 rounded-full bg-border mb-6 flex items-center justify-center">
                     <Users className="w-16 h-16 text-muted-foreground/40" />
                   </div>
-                  <h3 className="font-display text-4xl text-foreground mb-2">Jeff Johnson</h3>
+                  <h3 className="font-sans font-bold text-4xl text-foreground mb-2">Jeff Johnson</h3>
                   <p className="text-gold text-lg mb-4">Broker / Owner</p>
                   <p className="text-sm text-muted-foreground italic">Professional headshot coming soon</p>
                   <div className="space-y-2 text-muted-foreground mt-6">

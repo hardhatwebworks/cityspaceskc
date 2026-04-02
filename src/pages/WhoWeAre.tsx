@@ -13,7 +13,7 @@ const WhoWeAre = () => {
       <section className="pt-32 pb-16 bg-primary">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
+            <h1 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
               About Jeff Johnson
             </h1>
             <p className="text-xl text-primary-foreground/80 italic font-sans">

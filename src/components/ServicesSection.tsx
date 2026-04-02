@@ -35,7 +35,7 @@ const ServicesSection = () => {
             <span className="text-gold font-medium text-sm tracking-widest uppercase mb-4 block">
               What We Do
             </span>
-            <h2 className="font-display text-4xl md:text-5xl text-foreground mb-6">
+            <h2 className="font-sans font-bold text-4xl md:text-5xl text-foreground mb-6">
               Our Services
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
@@ -57,7 +57,7 @@ const ServicesSection = () => {
                 </div>
                 
                 {/* Content */}
-                <h3 className="font-display text-2xl text-foreground mb-4">{service.title}</h3>
+                <h3 className="font-sans font-bold text-2xl text-foreground mb-4">{service.title}</h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">{service.description}</p>
                 
                 {/* Learn More Link */}

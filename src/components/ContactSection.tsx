@@ -55,7 +55,7 @@ const ContactSection = () => {
               <span className="text-gold font-medium text-sm tracking-widest uppercase mb-4 block">
                 Get In Touch
               </span>
-              <h2 className="font-display text-4xl md:text-5xl text-primary-foreground mb-6">
+              <h2 className="font-sans font-bold text-4xl md:text-5xl text-primary-foreground mb-6">
                 Ready to Find Your Space?
               </h2>
               <p className="text-primary-foreground/70 text-lg leading-relaxed mb-10">
@@ -87,7 +87,7 @@ const ContactSection = () => {
             
             {/* Contact Form */}
             <div className="bg-card rounded-2xl p-8 shadow-2xl">
-              <h3 className="font-display text-2xl text-foreground mb-6">Send a Message</h3>
+              <h3 className="font-sans font-bold text-2xl text-foreground mb-6">Send a Message</h3>
               
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div>

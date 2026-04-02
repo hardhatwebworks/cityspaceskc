@@ -32,7 +32,7 @@ const Investments = () => {
             <span className="text-gold font-medium text-sm tracking-widest uppercase mb-4 block">
               Investment Services
             </span>
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
+            <h1 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
               Real Estate Investments
             </h1>
             <p className="text-xl text-primary-foreground/80">
@@ -65,7 +65,7 @@ const Investments = () => {
                   <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-gold/10 text-gold mb-4">
                     <benefit.icon className="w-7 h-7" />
                   </div>
-                  <h3 className="font-display text-lg text-foreground mb-2">{benefit.title}</h3>
+                  <h3 className="font-sans font-bold text-lg text-foreground mb-2">{benefit.title}</h3>
                   <p className="text-sm text-muted-foreground">{benefit.description}</p>
                 </div>
               ))}
@@ -91,7 +91,7 @@ const Investments = () => {
             </p>
 
             <div className="bg-secondary rounded-2xl p-8 mb-12">
-              <h2 className="font-display text-2xl text-foreground mb-6">One-Stop Shop for Investors</h2>
+              <h2 className="font-sans font-bold text-2xl text-foreground mb-6">One-Stop Shop for Investors</h2>
               <p className="text-muted-foreground mb-6">
                 In addition to brokerage services, City Spaces Realty provides comprehensive services for real estate investors:
               </p>
@@ -106,7 +106,7 @@ const Investments = () => {
             </div>
 
             <div className="bg-gold/10 border-l-4 border-gold rounded-r-xl p-6 mb-8">
-              <h3 className="font-display text-xl text-foreground mb-4">Self-Directed IRA/401K Expertise</h3>
+              <h3 className="font-sans font-bold text-xl text-foreground mb-4">Self-Directed IRA/401K Expertise</h3>
               <p className="text-foreground leading-relaxed">
                 A particular area of expertise I have perfected is facilitating conversion of traditional IRA and 401K accounts into Self-Directed accounts which allow clients to invest directly into real estate assets. This little-known but widely used strategy is legal, easy and provides clients with the opportunity to be more hands on in managing their retirement portfolios.
               </p>
@@ -119,7 +119,7 @@ const Investments = () => {
       <section className="py-16 bg-primary">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="font-display text-3xl text-primary-foreground mb-6">
+            <h2 className="font-sans font-bold text-3xl text-primary-foreground mb-6">
               Start Building Your Portfolio
             </h2>
             <p className="text-primary-foreground/80 mb-8">
