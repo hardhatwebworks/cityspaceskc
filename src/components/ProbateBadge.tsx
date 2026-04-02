@@ -17,7 +17,7 @@ const ProbateBadge = () => {
           stroke="currentColor"
         />
         {/* Text overlay */}
-        <span className="relative z-10 text-primary font-bold text-[10px] md:text-xs leading-tight text-center px-4">
+        <span className="relative z-10 text-primary font-bold text-[9px] md:text-[11px] leading-tight text-center w-16 md:w-20">
           Probate / Inherited Property Specialists
         </span>
       </div>
