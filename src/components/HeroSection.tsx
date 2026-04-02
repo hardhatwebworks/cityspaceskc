@@ -8,7 +8,7 @@ const HeroSection = () => {
         <h1 className="font-display text-7xl md:text-[10rem] lg:text-[14rem] tracking-wide text-foreground leading-none">
           City Spaces
         </h1>
-        <p className="font-serif text-4xl md:text-6xl lg:text-8xl text-gold mt-2 tracking-wider">
+        <p className="font-serif text-4xl md:text-6xl lg:text-8xl text-gold mt-2 tracking-wide">
           Realty
         </p>
         <p className="font-serif text-base md:text-2xl lg:text-3xl text-primary mt-4 tracking-widest uppercase font-semibold">
