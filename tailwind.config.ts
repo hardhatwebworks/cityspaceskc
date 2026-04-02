@@ -15,6 +15,7 @@ export default {
     extend: {
       fontFamily: {
         display: ["Aerokids", "cursive"],
+        serif: ["Playfair Display", "Georgia", "serif"],
         sans: ["Source Sans 3", "system-ui", "sans-serif"],
       },
       colors: {
