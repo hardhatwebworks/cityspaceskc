@@ -41,7 +41,7 @@ const Probate = () => {
             <span className="text-gold font-medium text-sm tracking-widest uppercase mb-4 block">
               Estate Services
             </span>
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
+            <h1 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
               Inherited/Probated Properties
             </h1>
             <p className="text-xl text-primary-foreground/80">
@@ -117,7 +117,7 @@ const Probate = () => {
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-display text-3xl text-foreground mb-6 text-center">What Sets Us Apart</h2>
+            <h2 className="font-sans font-bold text-3xl text-foreground mb-6 text-center">What Sets Us Apart</h2>
             <p className="text-lg text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
               Our model is different from other real estate agents and investors. The wide scope of services offered coupled with our commitment to exceed our client's expectations sets us apart from the pack.
             </p>
@@ -143,7 +143,7 @@ const Probate = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-display text-3xl text-foreground mb-8 text-center">Success Story</h2>
+            <h2 className="font-sans font-bold text-3xl text-foreground mb-8 text-center">Success Story</h2>
             
             <div className="bg-primary rounded-2xl p-8 md:p-12">
               <div className="flex items-start gap-4 mb-6">
@@ -169,7 +169,7 @@ const Probate = () => {
       <section className="py-16 bg-primary">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="font-display text-3xl text-primary-foreground mb-6">
+            <h2 className="font-sans font-bold text-3xl text-primary-foreground mb-6">
               We're Here to Help
             </h2>
             <p className="text-primary-foreground/80 mb-8">

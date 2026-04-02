@@ -114,7 +114,7 @@ const SuccessStories = () => {
             <span className="text-gold font-medium text-sm tracking-widest uppercase mb-4 block">
               Client Stories
             </span>
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
+            <h1 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
               Success Stories
             </h1>
             <p className="text-xl text-primary-foreground/80">
@@ -139,7 +139,7 @@ const SuccessStories = () => {
                       <Quote className="w-6 h-6 text-gold" />
                     </div>
                     <div>
-                      <h2 className="font-display text-2xl text-foreground mb-2">{story.title}</h2>
+                      <h2 className="font-sans font-bold text-2xl text-foreground mb-2">{story.title}</h2>
                       <span className="inline-block px-3 py-1 bg-gold/10 text-gold text-sm rounded-full font-medium">
                         {story.highlight}
                       </span>
@@ -158,7 +158,7 @@ const SuccessStories = () => {
       <section className="py-16 bg-primary">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="font-display text-3xl text-primary-foreground mb-6">
+            <h2 className="font-sans font-bold text-3xl text-primary-foreground mb-6">
               Ready to Write Your Success Story?
             </h2>
             <p className="text-primary-foreground/80 mb-8">

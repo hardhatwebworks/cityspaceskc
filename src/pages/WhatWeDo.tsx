@@ -28,7 +28,7 @@ const WhatWeDo = () => {
             <span className="text-gold font-medium text-sm tracking-widest uppercase mb-4 block">
               Our Services
             </span>
-             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
+             <h1 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6">
                Residential Brokerage
              </h1>
              <p className="text-xl text-primary-foreground/80 font-sans">
@@ -56,7 +56,7 @@ const WhatWeDo = () => {
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-display text-3xl text-foreground mb-8">What Makes City Spaces Realty Different</h2>
+            <h2 className="font-sans font-bold text-3xl text-foreground mb-8">What Makes City Spaces Realty Different</h2>
             <div className="grid gap-4">
               {differentiators.map((item, index) => (
                 <div key={index} className="flex items-start gap-4 bg-card p-5 rounded-xl">
@@ -73,7 +73,7 @@ const WhatWeDo = () => {
       <section className="py-16 bg-primary">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="font-display text-3xl text-primary-foreground mb-6">
+            <h2 className="font-sans font-bold text-3xl text-primary-foreground mb-6">
               Ready to Get Started?
             </h2>
             <p className="text-primary-foreground/80 mb-8">
