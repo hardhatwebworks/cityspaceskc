@@ -2,7 +2,7 @@ import heroBackground from "@/assets/hero-background.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-end md:justify-center overflow-hidden bg-background">
+    <section className="relative min-h-[68svh] md:min-h-screen flex flex-col items-center justify-end md:justify-center overflow-hidden bg-background">
       {/* Hero Text */}
       <div className="relative z-20 text-center mb-[25vw] md:mb-48 opacity-0 animate-fade-in-up">
         <h1 className="font-display text-7xl md:text-[10rem] lg:text-[14rem] tracking-wide text-foreground leading-none">
