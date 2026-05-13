@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/about-us", "dest": "/index.html" },
+    { "src": "/residential-brokerage", "dest": "/index.html" },
+    { "src": "/real-estate-investments", "dest": "/index.html" },
+    { "src": "/inherited-properties", "dest": "/index.html" },
+    { "src": "/success-stories", "dest": "/index.html" },
+    { "src": "/contact", "dest": "/index.html" },
+    { "src": "/(.*)", "status": 404, "dest": "/404.html" }
+  ]
+}
