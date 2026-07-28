@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Seo from "@/components/Seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -105,6 +106,10 @@ const SuccessStories = () => {
 
   return (
     <main className="min-h-screen">
+      <Seo
+        title="Success Stories | City Spaces Realty Kansas City"
+        description="Real Kansas City client stories from City Spaces Realty: tenacious buyers, fixer-uppers, out-of-state sellers, and more."
+      />
       <Header />
       
       {/* Hero Section */}

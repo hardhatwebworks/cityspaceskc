@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Seo from "@/components/Seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -32,6 +33,10 @@ const Probate = () => {
 
   return (
     <main className="min-h-screen">
+      <Seo
+        title="Inherited Properties & Probate Concierge | City Spaces Realty"
+        description="Compassionate probate and inherited property services in Kansas City: securing assets, estate sales, repairs, and sale of the home."
+      />
       <Header />
       
       {/* Hero Section */}
