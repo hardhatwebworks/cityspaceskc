@@ -1,3 +1,4 @@
+import Seo from "@/components/Seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -19,6 +20,10 @@ const WhatWeDo = () => {
 
   return (
     <main className="min-h-screen">
+      <Seo
+        title="Residential Brokerage | City Spaces Realty Kansas City"
+        description="Personalized residential brokerage for buyers and sellers across the Kansas City metro. Individualized plans, expert negotiation, clear communication."
+      />
       <Header />
       
       {/* Hero Section */}

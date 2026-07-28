@@ -1,3 +1,4 @@
+import Seo from "@/components/Seo";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
@@ -7,6 +8,10 @@ import Footer from "@/components/Footer";
 const Index = () => {
   return (
     <main className="min-h-screen">
+      <Seo
+        title="City Spaces Realty | Kansas City Real Estate - Residential, Land & Investments"
+        description="Boutique Kansas City real estate brokerage specializing in residential properties, land, and investments. Work with broker Jeff Johnson."
+      />
       <Header />
       <HeroSection />
       <AboutSection />
