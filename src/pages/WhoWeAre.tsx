@@ -1,3 +1,4 @@
+import Seo from "@/components/Seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -7,6 +8,10 @@ import familyPhoto from "@/assets/family-photo.jpeg";
 const WhoWeAre = () => {
   return (
     <main className="min-h-screen">
+      <Seo
+        title="About Jeff Johnson | City Spaces Realty Kansas City"
+        description="Meet Jeff Johnson, Owner and Managing Broker of City Spaces Realty, with 30 years of Kansas City real estate experience."
+      />
       <Header />
       
       {/* Hero Section */}

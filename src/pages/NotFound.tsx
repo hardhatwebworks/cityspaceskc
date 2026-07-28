@@ -1,38 +1,18 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Home, Mail, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Seo from "@/components/Seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const NotFound = () => {
-  useEffect(() => {
-    const originalTitle = document.title;
-    document.title = "404 - Page Not Found | City Spaces Realty";
-
-    let metaRobots = document.querySelector('meta[name="robots"]') as HTMLMetaElement | null;
-    const originalContent = metaRobots?.getAttribute("content");
-    if (!metaRobots) {
-      metaRobots = document.createElement("meta");
-      metaRobots.setAttribute("name", "robots");
-      document.head.appendChild(metaRobots);
-    }
-    metaRobots.setAttribute("content", "noindex, nofollow");
-
-    return () => {
-      document.title = originalTitle;
-      if (metaRobots) {
-        if (originalContent) {
-          metaRobots.setAttribute("content", originalContent);
-        } else {
-          metaRobots.setAttribute("content", "index, follow");
-        }
-      }
-    };
-  }, []);
-
   return (
     <div className="min-h-screen flex flex-col">
+      <Seo
+        title="404 - Page Not Found | City Spaces Realty"
+        description="The page you're looking for doesn't exist or may have moved. City Spaces Realty - Kansas City Real Estate."
+        noindex
+      />
       <Header />
       <main className="flex-1 flex items-center justify-center bg-gradient-hero relative overflow-hidden">
         {/* Decorative background glows */}

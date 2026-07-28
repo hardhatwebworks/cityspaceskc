@@ -1,3 +1,4 @@
+import Seo from "@/components/Seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -23,6 +24,10 @@ const Investments = () => {
 
   return (
     <main className="min-h-screen">
+      <Seo
+        title="Real Estate Investments | City Spaces Realty Kansas City"
+        description="Build wealth with Kansas City investment property: sourcing, management, cash flow analysis, and Self-Directed IRA/401K facilitation."
+      />
       <Header />
       
       {/* Hero Section */}
