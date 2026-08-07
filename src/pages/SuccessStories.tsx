@@ -107,8 +107,8 @@ const SuccessStories = () => {
   return (
     <main className="min-h-screen">
       <Seo
-        title="Success Stories | City Spaces Realty Kansas City"
-        description="Real Kansas City client stories from City Spaces Realty: tenacious buyers, fixer-uppers, out-of-state sellers, and more."
+        title="Kansas City Real Estate Success Stories | City Spaces Realty"
+        description="Real client results from City Spaces Realty: tenacious buyers, fixer-upper transformations, out-of-state sellers, and other Kansas City wins."
       />
       <Header />
       

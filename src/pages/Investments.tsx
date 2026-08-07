@@ -25,8 +25,8 @@ const Investments = () => {
   return (
     <main className="min-h-screen">
       <Seo
-        title="Real Estate Investments | City Spaces Realty Kansas City"
-        description="Build wealth with Kansas City investment property: sourcing, management, cash flow analysis, and Self-Directed IRA/401K facilitation."
+        title="Kansas City Real Estate Investments | City Spaces Realty"
+        description="Build wealth with Kansas City investment property: sourcing, cash flow analysis, property and construction management, leasing, and Self-Directed IRA/401K."
       />
       <Header />
       

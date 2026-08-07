@@ -7,8 +7,8 @@ const Contact = () => {
   return (
     <main className="min-h-screen">
       <Seo
-        title="Contact City Spaces Realty | Kansas City Real Estate"
-        description="Get in touch with Jeff Johnson at City Spaces Realty. Call (816) 651-7726 or email jeff@cityspaceskc.com for Kansas City real estate help."
+        title="Contact City Spaces Realty | Kansas City"
+        description="Call, text, or email Jeff Johnson at City Spaces Realty for a free, no-obligation Kansas City real estate consultation. (816) 651-7726."
       />
       <Header />
       <div className="pt-20">

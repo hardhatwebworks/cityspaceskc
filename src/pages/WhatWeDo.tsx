@@ -21,8 +21,8 @@ const WhatWeDo = () => {
   return (
     <main className="min-h-screen">
       <Seo
-        title="Residential Brokerage | City Spaces Realty Kansas City"
-        description="Personalized residential brokerage for buyers and sellers across the Kansas City metro. Individualized plans, expert negotiation, clear communication."
+        title="Kansas City Residential Brokerage | City Spaces Realty"
+        description="Boutique residential brokerage for Kansas City buyers and sellers: individualized plans, candid advice, skilled negotiation, and reliable communication."
       />
       <Header />
       
