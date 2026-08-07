@@ -34,8 +34,8 @@ const Probate = () => {
   return (
     <main className="min-h-screen">
       <Seo
-        title="Inherited Properties & Probate Concierge | City Spaces Realty"
-        description="Compassionate probate and inherited property services in Kansas City: securing assets, estate sales, repairs, and sale of the home."
+        title="Kansas City Inherited Property & Probate | City Spaces Realty"
+        description="Concierge help for Kansas City inherited homes: securing the property, estate cleanouts, repairs, and guiding the sale through probate with compassion."
       />
       <Header />
       

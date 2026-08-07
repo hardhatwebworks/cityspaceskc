@@ -9,8 +9,8 @@ const Index = () => {
   return (
     <main className="min-h-screen">
       <Seo
-        title="City Spaces Realty | Kansas City Real Estate - Residential, Land & Investments"
-        description="Boutique Kansas City real estate brokerage specializing in residential properties, land, and investments. Work with broker Jeff Johnson."
+        title="City Spaces Realty | Kansas City Real Estate"
+        description="Boutique Kansas City brokerage led by Jeff Johnson, helping clients buy, sell, and invest in residential homes, land, and rental property."
       />
       <Header />
       <HeroSection />

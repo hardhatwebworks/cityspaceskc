@@ -9,8 +9,8 @@ const WhoWeAre = () => {
   return (
     <main className="min-h-screen">
       <Seo
-        title="About Jeff Johnson | City Spaces Realty Kansas City"
-        description="Meet Jeff Johnson, Owner and Managing Broker of City Spaces Realty, with 30 years of Kansas City real estate experience."
+        title="About City Spaces Realty | Kansas City Real Estate"
+        description="Meet Jeff Johnson, Owner and Managing Broker of City Spaces Realty, with 30 years in residential brokerage, lending, and development in Kansas City."
       />
       <Header />
       
